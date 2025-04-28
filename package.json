@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend blogging platform",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/fdhlaly/backend-blogging-platform#readme",
+  "bugs": {
+    "url": "https://github.com/fdhlaly/backend-blogging-platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdhlaly/backend-blogging-platform.git"
+  },
+  "license": "ISC",
+  "author": "fadhil aly",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
